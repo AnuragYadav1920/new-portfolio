@@ -10,7 +10,7 @@ const projects = [
     ],
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "CSS", "JavaScript", "Redux"],
     image: "./images/softdev.png",
-    link: "https://softdev.example.com",
+    link: "https://github.com/AnuragYadav1920/SoftDev",
   },
   {
     title: "WebFeed (Full Stack)",
@@ -23,7 +23,7 @@ const projects = [
     ],
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "CSS", "JavaScript", "Redux"],
     image: "./images/webfeed.png",
-    link: "https://webfeed.example.com",
+    link: "https://github.com/AnuragYadav1920/webfeed-frontend",
   },
   {
     title: "Portfolio Website (Frontend)",
