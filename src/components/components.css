@@ -1,0 +1,177 @@
+/* navbar css */
+
+.navbar {
+  background-color: #000000;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Navbar inner container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 90%;
+  max-width: 1200px;
+  align-items: center;
+}
+
+/* Logo link */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+.logo-img {
+  height: 40px;
+  width: auto;
+  max-height: 100%;
+}
+
+/* Menu icon */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+/* Hamburger bars */
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Change class for animation */
+.change {
+  transform: rotate(-45deg);
+}
+
+/* Navigation menu */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+/* Navigation items */
+.nav-item {
+  margin-left: 20px;
+}
+
+/* Navigation links */
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+}
+
+.nav-links:hover {
+  color: #ff6347;
+  border-radius: 4px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #ff6347;
+    flex-direction: column;
+    align-items: center;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .logo-img {
+    height: 30px;
+  }
+}
+
+
+/* footer css */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.contact-info{
+  display: inline-block;
+  flex:1
+}
+.social-links {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.contact-info h4,
+.social-links h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contact-info p,
+.social-links ul {
+  font-size: 1rem;
+  margin: 5px 0;
+
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links ul li a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-links ul li a:hover {
+  color: #1da1f2; 
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
