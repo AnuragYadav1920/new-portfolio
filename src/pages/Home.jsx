@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom"
 import './pages.css';
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
           <p className="description">
             Crafting seamless and scalable web applications using the latest technologies. Let's build something amazing together!
           </p>
-          <a href="/contact" className="cta-button">Get in Touch</a>
+          <Link to="/contact" className="cta-button">Get in Touch</Link>
         </div>
       </div>
     </section>
