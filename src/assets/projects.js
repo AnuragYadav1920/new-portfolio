@@ -36,7 +36,7 @@ const projects = [
     ],
     technologies: ["React.js", "CSS3", "JavaScript"],
     image: "./images/portfolio.png",
-    link: "https://yourportfolio.com",
+    link: "https://new-portfolio-one-orpin.vercel.app/",
   },
   {
     title: "Weather Forecasting App (Frontend)",
